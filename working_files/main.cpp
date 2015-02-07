@@ -1,23 +1,3 @@
-/******
-
-Name:			Matthew Saliba
-Subject:		CSCI124
-Description:	Contains the file to call the functions from the LLONG class
-
-				NOTE: DIVISION AND MOD OPERATIONS HAVEN'T BEEN COMPLETELY IMPLEMENTED
-				THEY ONLY WORK FOR OPERATIONS INVOLVING 0. BOTH OPERATIONS HAVE BEEN
-				IMPLEMENTED IN A SIMLAR WAY TO HOW C++ HANDLES THE USE OF 0 WHEN DEALING
-				WITH THESE OPERATIONS
-
-Student #:		3284165
-Date Mod:		13th October 2013
-Lab:			A - 0830- 1030
-FileName:		main.cpp
-Make Cmd:		make ass4 - command will create the output file
-				to run after the "make command" enter "./ass4"
-
-********/
-
 #include "header.h"
 #include<iostream>
 #include<fstream>
@@ -31,12 +11,109 @@ using namespace std;
 
 int main(){
 	
-	LLONG test(12323);
-	LLONG another(222);
+	//int tye = 2147483647;	
+	//int more = -100000000;
+	//LLONG test(tye);
+	//LLONG test3(more);
+	/*
+	cout << "FIRST: ";
+	test.add(test3);
+	cout << endl;
+	cout << "SECOND: ";
+	test.add(test3);
+	cout << endl;
+	cout << "THIRD: ";
+	test.add(test3);
+	cout << endl;
+	cout << "FOURTH: ";
+	test.add(test3);
+	cout << endl;
+	cout << "FIFTH: ";
+	test.add(test3);
+	cout << endl;
+	cout << "SIXTH: ";
+	test.add(test3);
+	cout << endl;
+	cout << "SEVENTH: ";
+	test.add(test3);
+	cout << endl;
+	cout << "EGTH: ";
+	test.add(test3);
+	cout << endl;
+	cout << "NINE: ";
+	test.add(test3);
+	cout << endl;
+	cout << "TEN: ";
+	test.add(test3);
+	cout << endl;*/
+	//test.subtract(test3);
 	
+	//test.output(cout << "The current number of this is:" ) << endl;
 	
-	test.multiply(test);
-	test.output(cout << "this is: " ) << endl;
+	//test.subtract(test3);
+	//test.output(cout << "The current number of this is:" ) << endl;
+	
+	//test.multiply(test3);
+	//test.output(cout << "The current number of this is:" ) << endl;
+	
+	//LLONG test(-120343443);
+	//LLONG test2(1234434334);
+	
+	//test2.output(cout << "The current number of this is:" ) << endl;
+	//test.multiply(test2);
+	//test.output(cout << "The current number of this is:" ) << endl;
+	
+	//LLONG test(0);
+	//LLONG test2(1290);
+	LLONG test(1324834833);
+	LLONG test2(1324834833);
+	
+	/*test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);
+	test.add(test2);*/
+	//cout << "ASDAD: " << test.compare(test2) << endl;
+	test.output(cout << "The current number of this is:" ) << endl;
+	//test.multiply(test2);
+	
+	//test2.output(cout << "The current number of this is:" ) << endl;
+	//test.add(test2);
+	//test.output(cout << "The current number of this is:" ) << endl;
+	//test.add(10);
+	//test.output(cout << "The current number of this is:" ) << endl;
+	
+	//test.add(test2);
+	//test.output(cout << "The current number of this is:" ) << endl;
+	/*
+	LLONG test(0);
+	LLONG test2(10);
+	
+	test.multiply(test2);
+	test.output(cout << "The current number of this is:" ) << endl;*/
+	
 	
 	return 0;
 }
