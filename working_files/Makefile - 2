@@ -1,0 +1,15 @@
+main:	main.o functions.o
+		g++ -Wall -o ass4 main main.o functions.o
+
+main.o:	main.cpp header.h
+		g++ -c main.cpp
+
+ass4:	main.o functions.o
+		g++ -Wall -o ass4 main.o functions.o
+
+functions.o: functions.cpp header.h
+		g++ -c functions.cpp
+
+# run the "make clean" to remove the files from the current directory
+clean:
+		rm main.o functions.o ass4
